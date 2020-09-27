@@ -3,6 +3,7 @@ Lucy Wangeci Karimi
 # My Portfolio
 #### This is what defines what i am and what i want to become after a successful completion of programming and acquired necessary skills.This portfolio describes who i ama as a person and careerwise considering my achievements in terms of education and work exeperience.
 ## Description
+* <img src="img/portfolio.png">
 ## Setup/Installation Requirements
 * To run my page on your browser,
 * Git clone https://github.com/luciahroyalty101/my-portfolio.git to your terminal
