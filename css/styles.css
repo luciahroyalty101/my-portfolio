@@ -49,7 +49,17 @@ ul {
     float: left;
     font-size: 20px;
     background-color: darkblue;
+    table, th, td {
+        border: 1px red;
+        /* border-collapse: collapse; */
+        text-align: left;
+      }
+      th, td {
+        padding: 15px;
+      
+      }
 }
+
 .classic{
     float: left;
         display: table;
