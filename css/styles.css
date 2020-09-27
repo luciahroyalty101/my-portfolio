@@ -79,6 +79,7 @@ ul {
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
+    
 }
   
 .about-section {
@@ -118,8 +119,10 @@ ul {
     background-color: #555;
 }
 #contact a{
-    align-items: center;
-}
+    justify-content: center;
+    margin-left: 30px;
+    padding:10px;
+    }
   
 @media screen and (max-width: 650px) {
     .column {
