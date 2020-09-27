@@ -22,8 +22,8 @@ ul {
   .description{
       background-image: url(/img/Lucy.jpg);
       background-repeat: no-repeat;
-      height: 500px;
-      width: 600px;
+      height: 100px;
+      width: 300px;
       align-items: center;
       float: right;
       padding: 150px;
@@ -54,14 +54,6 @@ ul {
     float: left;
         display: table;
  }
- #women{
-     float: left;
-     margin: 3px solid red;
- }
- /* .frank{
-     float: right;
-     padding: 0px 0px 0px 15px;
- } */
  img.frank{
      float: right;
      justify-content: space-around;
@@ -114,6 +106,9 @@ ul {
   
 .button:hover {
     background-color: #555;
+}
+#contact a{
+    align-items: center;
 }
   
 @media screen and (max-width: 650px) {
