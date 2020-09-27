@@ -1,24 +1,23 @@
-#### Author
- Lucy Wangeci Karimi
+# Author
+Lucy Wangeci Karimi
 # My Portfolio
 #### This is what defines what i am and what i want to become after a successful completion of programming and acquired necessary skills.This portfolio describes who i ama as a person and careerwise considering my achievements in terms of education and work exeperience.
 ## Description
-* This page describes my life journey careerwise and the acheievements such as projects i've been able to build so far.
-<img src="img/portfolio.png">
-## To run my page on your browser,
-* Git  clone https://github.com/luciahroyalty101/my-portfolio.git to your terminal
+## Setup/Installation Requirements
+* To run my page on your browser,
+* Git clone https://github.com/luciahroyalty101/my-portfolio.git to your terminal
 * Open Documents and open Portfolio with Vs code
 * Render the page to your browser by live server
 ## Known Bugs
-* Am still improving on my programming skills.
+ Am still improving on my programming skills.
 ## Technologies Used
 * HTML
 * CSS
-* fONT-AWESOME
 ## Support and contact details
 * luciahkei101@gmail.com
 * 0797916750
 * twitter@luciahkei101
 * fb@Luciah Karimi
 ### License
-licensed under [MIT license](LICENSE)
+ licensed under [MIT license](LICENSE)
+  
