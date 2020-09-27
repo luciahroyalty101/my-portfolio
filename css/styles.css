@@ -10,67 +10,57 @@ ul {
     width: 400px;
     height: 200px;
     background-color: #f1f1f1;
-  }
-  li a {
+}
+li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-  }
-  li a:hover {
-    background-color: #555;
+}
+li a:hover {
+    background-color: lime;
     color: white;
-  }
-  .description{
-      background-image: url(/img/Lucy.jpg);
-      background-repeat: no-repeat;
-      height: 600px;
-      width: 500px;
-      align-items: center;
-      float: right;
-      padding: 150px;
-  }
-  .description p{
+}
+h1{
+    text-align: center;
+}
+.description p{
       color:black;
       justify-content: space-evenly;
-  }
-  span{
+}
+span{
       font-size: 40px;
-  }
-  .me{
+}
+.me{
       font-size: 30px;
-  }
-  #zesta{
+}
+#zesta{
       font-size: 30px;
-  }
+}
 .wangeci{
     font-size: 40px;
     color: brown;
 }
 .karimi{
-    float: left;
     font-size: 20px;
-    background-image: url(../img/bg.jpeg);
+    background-image: url(/img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 1;
-    table, th, td {
-        border:1px red;
-        /* border-collapse: collapse; */
-        text-align: left;
-      }
-      th, td {
-        padding: 15px;
-      
-      }
 }
+table, th, td {
+    border:1px #333;
+    /* border-collapse: collapse; */
+    text-align: left;
+}
+th, td {
+    padding: 15px;
 
-.classic{
-    float: left;
-        display: table;
- }
- img.frank{
+}
+img.frank{
      float: right;
      justify-content: space-around;
- }
+}
   
 .column {
     float: left;
@@ -78,8 +68,11 @@ ul {
     margin-bottom: 16px;
     padding: 0 8px;
 }
+#projects{
+    justify-content: space-evenly;
+}
   
-  .card {
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
     background-image: url(../img/projo.jpeg);
@@ -120,13 +113,14 @@ ul {
 }
   
 .button:hover {
-    background-color: #555;
+    background-color: lime;
 }
-#contact a{
-    justify-content: center;
-    margin-left: 30px;
-    padding:10px;
-    }
+#contact li a{
+    justify-content: space-evenly;
+    margin-left: 0px;
+    padding:0px;
+    display: flex;
+}
   
 @media screen and (max-width: 650px) {
     .column {
@@ -134,5 +128,47 @@ ul {
       display: block;
     }
 }
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:lightcoral;
+    color:blue;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ .contact{
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+  
+  
   
  
